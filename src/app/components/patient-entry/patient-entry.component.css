@@ -1,0 +1,27 @@
+.patient-entry{
+    width: 400px;
+    margin: auto;
+    padding: 5px;
+    top: 20px;
+}
+
+.mat-input-element {
+    height: 30px; /* Adjust the height of the input fields */
+  }
+
+  .mat-form-field {
+    width: 100%;
+    margin-bottom: 15px; /* Add some spacing between form fields */
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items (input fields and button) at the center horizontally */
+    justify-content: center; /* Align items (input fields and button) at the center vertically */
+  }
+
+  .header{
+    padding: 12px;
+    margin-bottom: 10px;
+  }

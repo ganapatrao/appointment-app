@@ -1,0 +1,19 @@
+.doctors {
+    max-width: 400px;
+
+    margin: 16px;
+  }
+  
+  .example-header-image {
+    background-image: url('../../../assets/images/chief_of_staff.png');
+    background-size: cover;
+  }
+
+  .doctor-list {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .doctor-list li {
+    margin-bottom: 10px; /* Add spacing between list items */
+  }

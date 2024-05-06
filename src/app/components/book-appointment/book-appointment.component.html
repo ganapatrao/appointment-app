@@ -1,0 +1,42 @@
+
+
+  <mat-card class="appointment">
+  <mat-card class="doctors">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{docDetails.name}}</mat-card-title> 
+      <mat-card-subtitle>{{docDetails.speciality}}</mat-card-subtitle> 
+    </mat-card-header>
+
+
+  </mat-card>
+
+
+  <mat-card  class="appointment">
+    <mat-card-content class="container">
+      <!-- Calendar on the left -->
+      <div class="calendar">
+        <mat-card class="demo-inline-calendar-card">
+            <mat-calendar [(selected)]="selectedDate" (selectedChange)="onDateChange()"></mat-calendar>
+          </mat-card>
+          <!-- <p>Selected date: {{selectedDate}}</p> -->
+      </div>
+  
+      <!-- Time slots on the right -->
+      <div class="time-slots">
+        <mat-radio-group   (change)="getSelectedTimeSlot($event)">
+            <mat-radio-button *ngFor="let slot of timeslots" [value]="slot" [disabled]="isSlotBooked(slot)">
+              {{ slot }}
+            </mat-radio-button>
+        </mat-radio-group>
+      </div>
+          <button mat-flat-button color="primary" (click)="openDialog()">Book Appointment</button>
+    </mat-card-content>
+
+    <button mat-flat-button color="primary" (click)="navigateToDoctor()">Home</button>
+  </mat-card>
+
+
+
+
+</mat-card>

@@ -1,0 +1,24 @@
+
+
+
+
+  <ul class="doctor-list">
+    <li *ngFor="let doctor of doctorslist">
+
+        <mat-card class="doctors">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>{{doctor.name}}</mat-card-title>
+              <mat-card-subtitle>{{doctor.specialization}}</mat-card-subtitle>
+            </mat-card-header>
+        
+            <mat-card-actions>
+              <button mat-flat-button color="primary" (click)="BookAppointment(doctor.id,doctor.name,doctor.specialization)">Book</button>
+        
+            </mat-card-actions>
+          </mat-card>
+
+
+      <!-- <button (click)="bookAppointment(doctor)">Book Appointment</button> -->
+    </li>
+  </ul>

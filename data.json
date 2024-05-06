@@ -1,0 +1,85 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Rohan",
+      "specialization": "Cardiology"
+    },
+    {
+      "id": 2,
+      "name": "soham",
+      "specialization": "Dermatology"
+    },
+    {
+      "id": 3,
+      "name": "Leela",
+      "specialization": "childspecialist"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "fdfefc40-017b-44d6-aae8-eb9e28392fc9",
+      "patientsname": "hk",
+      "patientsDescription": "hk",
+      "date": "2024-05-07",
+      "slot": "10:00 AM",
+      "docId": 1
+    },
+    {
+      "id": "4205291a-73d2-4abb-8886-0275b03c56cf",
+      "patientsname": "hh",
+      "patientsDescription": "hh",
+      "date": "2024-05-06",
+      "slot": "11:30 AM",
+      "docId": 1
+    },
+    {
+      "id": "3f46be58-c438-4711-a30d-14a81d030707",
+      "patientsname": "hk",
+      "patientsDescription": "hk123",
+      "date": "2024-05-06",
+      "slot": "11:00 AM",
+      "docId": 1
+    },
+    {
+      "id": "ff8cc5c9-84d5-420c-8c7c-b8959566968a",
+      "patientsname": "hkhk",
+      "patientsDescription": "hkhk",
+      "date": "2024-05-07",
+      "slot": "10:30 AM",
+      "docId": 1
+    },
+    {
+      "id": "e0a45bea-9842-4391-8702-f3411d0a60cd",
+      "patientsname": "hkhk",
+      "patientsDescription": "hrhr",
+      "date": "2024-05-07",
+      "slot": "11:00 AM",
+      "docId": 1
+    },
+    {
+      "id": "07d8ac0b-91d0-4d27-8823-3ab8c3e3dbc4",
+      "patientsname": "hkhk",
+      "patientsDescription": "hkkk",
+      "date": "2024-05-06",
+      "slot": "10:00 AM",
+      "docId": 1
+    },
+    {
+      "id": "47f4e179-c9ac-4485-acca-8f2e2ef353d9",
+      "patientsname": "test",
+      "patientsDescription": "resty",
+      "date": "2024-05-06",
+      "slot": "9:00 AM",
+      "docId": 3
+    },
+    {
+      "id": "66fdc4c4-d241-4e50-9f3d-8fd6c69c517d",
+      "patientsname": "hkhk",
+      "patientsDescription": "hkhk",
+      "date": "2024-05-10",
+      "slot": null,
+      "docId": 3
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+.appointment{
+    width: 600px;
+}
+
+.dateselector{
+    width: 400px;
+    
+}
+
+.doctors{
+    width: 400px;
+    margin:16px
+}
+.dateselector {
+    width: 200px; /* Adjust the width as needed */
+  }
+
+  .demo-inline-calendar-card {
+    width: 300px;
+  }
+
+  .container {
+    display: flex; /* Use flexbox layout */
+  }
+  
+  .calendar {
+    flex: 1; /* Take up remaining space */
+    padding-right: 16px; /* Add some spacing between calendar and time slots */
+  }
+  
+  .time-slots {
+    flex: 1; /* Take up remaining space */
+  }
+  
+  .slot {
+    margin-bottom: 8px; /* Add spacing between time slots */
+    border-radius: 14px;
+  }
+
+  .appointment{
+    margin: 12x;
+  }
